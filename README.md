@@ -10,7 +10,7 @@ description: "Azure Cosmos DB is a fully managed globally distributed, multi-mod
 urlFragment: CosmosDB-FastAPI-Motor-Sample
 ---
 
-# Build a Flask app using Azure Cosmos DB for MongoDB API
+# Build an asynchronous FastAPI app using Azure Cosmos DB for MongoDB API
 Azure Cosmos DB is a fully managed globally distributed, multi-model database service, transparently replicating your data across any number of Azure regions. You can elastically scale throughput and storage, and take advantage of fast, single-digit-millisecond data access using the API of your choice backed by 99.999 SLA. This sample shows you how to use the Azure Cosmos DB for MongoDB API to store and access data from a Flask application.
 
 ## Prerequisites
@@ -40,6 +40,6 @@ Now let's clone the app, set the connection string, and run it.
 ## NOTES
 
 This sample has been adopted from the [CosmosDB-Flask-Mongo-Sample](https://github.com/Azure-Samples/CosmosDB-Flask-Mongo-Sample) in the Azure-Samples repository
-as a proof-of-concept to utilize FastAPI with Motor to asynconously work with CosmosDB.
+as a proof-of-concept to utilize FastAPI with Motor to asynchronously work with CosmosDB.
 
 So far, so good.
